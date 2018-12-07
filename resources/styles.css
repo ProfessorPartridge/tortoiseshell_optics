@@ -1,0 +1,49 @@
+/* ===== CSS Stylesheet for Tortoiseshell Optics ===== */
+
+* {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* ===== Element Selectors ===== */
+header {
+  display: flex;
+  background-color: cadetblue;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  padding: 15px;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+/* ===== Class Selectors ===== */
+
+.nav-logo,
+.menu-btn {
+  flex: 1;
+  padding: 2rem;
+}
+
+.menu-btn {
+  margin-left: 25%;
+}
+
+.main-banner {
+  width: 50%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.header-img {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png');
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
